@@ -16,9 +16,16 @@ num_merges=32000
 . ./utils/parse_options.sh  # e.g. this parses the above options
                             # if supplied.
 
+if [ $# -lt 1 ]; then
+  printf "$help_message\n";
+  exit 1;
+fi
+
+method = $1 # BPE or VS
+
 echo "Stage 0"
 
-if [ $stage -le 0 ]; then
+if [ $stage -le 0 ] && [ $method = "VS" ]; then
 
   if [ -f data/train/text ] && ! $overwrite; then
     echo "$0: Not processing, probably script have run from wrong stage"
@@ -27,6 +34,8 @@ if [ $stage -le 0 ]; then
   fi
 
   echo "$0: Preparing data..."
+  # For vowel split use vowel_splitter_Sanskrit.py file to create the data/train/text,
+  # data/test/text and language model data.
 
   local/prepare_data.sh train test
   
