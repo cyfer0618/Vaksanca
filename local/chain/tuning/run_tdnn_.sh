@@ -14,7 +14,7 @@
 
 
 set -e -o pipefail
-stage=0
+stage=18
 nj=12
 train_set=train
 test_set=truetest
@@ -223,7 +223,7 @@ if [ $stage -le 18 ]; then
       --extra-left-context-initial 0 \
       --extra-right-context-final 0 \
       --frames-per-chunk $frames_per_chunk \
-      --nj 2 --cmd "$decode_cmd"  --num-threads 4 \
+      --nj 1 --cmd "$decode_cmd"  --num-threads 4 \
       --online-ivector-dir exp/nnet3${nnet3_affix}/ivectors_${test_set}_hires \
       $tree_dir/graph data/${test_set}_hires ${dir}/decode_${test_set} || exit 1
 fi
