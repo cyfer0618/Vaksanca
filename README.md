@@ -14,8 +14,8 @@ The dataset contains 5 speakers, each with 100 utterances. The full dataset will
 	- In-domain test data link (test.zip) : https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing
 	- Out-of-domain truetest data link (truetest.zip) : https://drive.google.com/file/d/1lYBMKXW1elwElQVvWa1dGUMrB6cLduMR/view?usp=sharin
 - Result
-	- In-domain sample data WER :
-	- Out-domain sample data WER :
+	- In-domain sample data WER : 18.12
+	- Out-domain sample data WER : 34.88
 
 ## Recipe
 This [Kaldi](http://kaldi-asr.org/) recipe is based on subword - Vowel Split and Byte Pair Encoding. For word based we used [Wall Street Journal recipe](https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj/s5)
@@ -43,8 +43,8 @@ Download the pre-trained model and processed dataset
 From pre-trained model (SLP vowel split)
 ```
 ./decode.sh test
-# | WER : 
+# | WER : 18.12
 ./decode.sh truetest
-# | WER : 
+# | WER : 34.88
 
 ``` 
