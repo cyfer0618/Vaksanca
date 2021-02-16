@@ -8,10 +8,9 @@ The dataset contains 5 speakers, each with 100 utterances. The full dataset will
 
 ## Environments
 - python version: 3.7.3
-- Model files (SLP only)
+- Model files (SLP vowel split)
 	- model link: https://drive.google.com/file/d/1FkL3DPcqXTk2Ht6AgF2fPu3Rc5rlk8es/view?usp=sharing
-	- dict link: 
-	- LM link: 
+	- LM link: https://drive.google.com/file/d/1maOUwH4HzdCEWL2mcAmv1ixsGad3Meej/view?usp=sharing
 	- In-domain test data link (test.zip) : https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing
 	- Out-of-domain truetest data link (truetest.zip) : https://drive.google.com/file/d/1lYBMKXW1elwElQVvWa1dGUMrB6cLduMR/view?usp=sharin
 - Result
@@ -33,7 +32,7 @@ Or
 
 Download the pre-trained model and processed dataset
 	
-- Model : https://drive.google.com/file/d/1FkL3DPcqXTk2Ht6AgF2fPu3Rc5rlk8es/view?usp=sharing
+- Model (SLP vowel split) : https://drive.google.com/file/d/1FkL3DPcqXTk2Ht6AgF2fPu3Rc5rlk8es/view?usp=sharing
 - In-domain test data link (test.zip) : https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing
 - Out-of-domain truetest data link (truetest.zip) : https://drive.google.com/file/d/1lYBMKXW1elwElQVvWa1dGUMrB6cLduMR/view?usp=sharing
 - Wav files
@@ -41,7 +40,7 @@ Download the pre-trained model and processed dataset
 	* sp023 link : https://drive.google.com/file/d/1TyDxGJ9Qo9gKNrTx-yJPwEXYhWpaubaH/view?usp=sharing
 
 ## Evaluate
-From pre-trained model
+From pre-trained model (SLP vowel split)
 ```
 ./decode.sh test
 # | WER : 
