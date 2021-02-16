@@ -5,8 +5,6 @@ We are using 56 hours transcribed Sanskrit audio for training data (34,309 utter
 The database can be also downloaded from Anonymous google drive: http://bit.ly/39JJkrx .
 The dataset contains 5 speakers, each with 100 utterances. The full dataset will be released upon acceptance.
 
-## recipe
-This recipe is based on subword - Vowel Split and Byte Pair Encoding.
 
 ## Environments
 - python version: 3.7.3
@@ -20,8 +18,11 @@ This recipe is based on subword - Vowel Split and Byte Pair Encoding.
 	- In-domain sample data WER :
 	- Out-domain sample data WER :
 
-## 
-### Training
+## recipe
+This recipe is based on subword - Vowel Split and Byte Pair Encoding.
+
+ 
+## Training
 First download and prepare the dataset 
 	- Training data : https://drive.google.com/drive/folders/1DAy2ss75I4Kee3xim4cf4Raz1VWu3g_W?usp=sharing
 	- Test data : https://drive.google.com/drive/folders/1V8ieL35B3Kthd48i0SATpTFW4msr8OY4?usp=sharing
