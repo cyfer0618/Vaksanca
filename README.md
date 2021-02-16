@@ -18,8 +18,8 @@ The dataset contains 5 speakers, each with 100 utterances. The full dataset will
 	- In-domain sample data WER :
 	- Out-domain sample data WER :
 
-## recipe
-This recipe is based on subword - Vowel Split and Byte Pair Encoding.
+## Recipe
+This [Kaldi](http://kaldi-asr.org/) recipe is based on subword - Vowel Split and Byte Pair Encoding. For word based we used [Wall Street Journal recipe](https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj/s5)
 
  
 ## Training
@@ -31,7 +31,7 @@ First download and prepare the dataset
 
 Or
 
-Download the model and processed dataset
+Download the pre-trained model and processed dataset
 	
 - Model : https://drive.google.com/file/d/1FkL3DPcqXTk2Ht6AgF2fPu3Rc5rlk8es/view?usp=sharing
 - In-domain test data link (test.zip) : https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing
@@ -40,7 +40,8 @@ Download the model and processed dataset
 	* sp007 link : https://drive.google.com/file/d/12buT7lB_Te_Tqfn3D-6fj43BgyZuWHCc/view?usp=sharing
 	* sp023 link : https://drive.google.com/file/d/1TyDxGJ9Qo9gKNrTx-yJPwEXYhWpaubaH/view?usp=sharing
 
-### Evaluate
+## Evaluate
+From pre-trained model
 ```
 ./decode.sh test
 # | WER : 
