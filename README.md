@@ -28,7 +28,7 @@ Download the pre-trained model and processed dataset
 - Model (SLP vowel split) : https://drive.google.com/file/d/1FkL3DPcqXTk2Ht6AgF2fPu3Rc5rlk8es/view?usp=sharing
 - In-domain test data link (test.zip) : https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing
 - Out-of-domain test data link (truetest.zip) : https://drive.google.com/file/d/1lYBMKXW1elwElQVvWa1dGUMrB6cLduMR/view?usp=sharing
-- Audio files for testing (.mp3 files need to be converted into .wav files)
+- Audio files for testing (convert these .mp3 files to .wav files before testing)
 	* sp007 link : https://drive.google.com/file/d/12buT7lB_Te_Tqfn3D-6fj43BgyZuWHCc/view?usp=sharing
 	* sp023 link : https://drive.google.com/file/d/1TyDxGJ9Qo9gKNrTx-yJPwEXYhWpaubaH/view?usp=sharing
 
