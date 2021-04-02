@@ -3,7 +3,7 @@ Vaksancayah introduces free Sanskrit speech corpus and aims to make Sanskrit spe
 We are using 56 hours transcribed Sanskrit audio for training data (34,309 utterances, 12 people) and 10 hours transcribed Sanskrit audio for testing data (5531 utterances, 5 people).
 
 The sample dataset can be downloaded from the link : http://bit.ly/39JJkrx .
-This dataset contains 5 speakers, each with 100 utterances. The full dataset will be released upon acceptance.
+This contains the audio files for 6 speakers in total, where 4 speakers (each with 100 sentences) used for training, and 1 speaker for In-domain testing (500 sentences), and 1 speaker for Out-of-domain testing (494 sentences). The full dataset will be released upon acceptance.
 
 
 ## Environments
