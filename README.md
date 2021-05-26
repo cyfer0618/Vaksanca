@@ -25,20 +25,20 @@ This [Kaldi](http://kaldi-asr.org/) recipe is based on subword - Vowel Split and
 
 Download the pre-trained model 
 	
-- Model (SLP word based) : https://drive.google.com/file/d/1DP4VxjtrZhMJ7AVHj43HSKT_CZxrezpZ/view?usp=sharing
-- Model (SLP BPE based) : https://drive.google.com/file/d/1Hc3Gvfm7GfAeH8cMpSsztU2dZV441LnL/view?usp=sharing
-- Model (SLP vowel split based) : https://drive.google.com/file/d/1D7i0gz6FMXaAoUDn0LoMpG8BwDNbvc7H/view?usp=sharing
-- Model (Devnagari word based) : https://drive.google.com/file/d/1SYZYZRmEGhNAFfBDRY8CUpb9jQA3Q3qK/view?usp=sharing
-- Model (Devnagari BPE based) : https://drive.google.com/file/d/1LOzNMShuMmfZG9wxl1efzzWDQleplS9e/view?usp=sharing
-- Model (Devnagari vowel split based) : https://drive.google.com/file/d/1p2D0MiD57oL4bZ5TpwiPf-2d6JpNMGZS/view?usp=sharing
+- [Model (SLP word based)](https://drive.google.com/file/d/1DP4VxjtrZhMJ7AVHj43HSKT_CZxrezpZ/view?usp=sharing)
+- [Model (SLP BPE based)](https://drive.google.com/file/d/1Hc3Gvfm7GfAeH8cMpSsztU2dZV441LnL/view?usp=sharing)
+- [Model (SLP vowel split based)](https://drive.google.com/file/d/1D7i0gz6FMXaAoUDn0LoMpG8BwDNbvc7H/view?usp=sharing)
+- [Model (Devnagari word based)](https://drive.google.com/file/d/1SYZYZRmEGhNAFfBDRY8CUpb9jQA3Q3qK/view?usp=sharing)
+- [Model (Devnagari BPE based)](https://drive.google.com/file/d/1LOzNMShuMmfZG9wxl1efzzWDQleplS9e/view?usp=sharing)
+- [Model (Devnagari vowel split based)](https://drive.google.com/file/d/1p2D0MiD57oL4bZ5TpwiPf-2d6JpNMGZS/view?usp=sharing)
 
 Download the processed dataset
 
-- In-domain test data link (test.zip) : https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing
-- Out-of-domain test data link (truetest.zip) : https://drive.google.com/file/d/1lYBMKXW1elwElQVvWa1dGUMrB6cLduMR/view?usp=sharing
+- [In-domain test data link (test.zip)](https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing)
+- [Out-of-domain test data link (truetest.zip)](https://drive.google.com/file/d/1lYBMKXW1elwElQVvWa1dGUMrB6cLduMR/view?usp=sharing)
 - Audio files for testing (convert these .mp3 files to .wav files before testing)
-	* In-domain test audio files link : https://drive.google.com/file/d/12buT7lB_Te_Tqfn3D-6fj43BgyZuWHCc/view?usp=sharing
-	* Out-of-domain test audio files link : https://drive.google.com/file/d/1TyDxGJ9Qo9gKNrTx-yJPwEXYhWpaubaH/view?usp=sharing
+	* [In-domain test audio files link](https://drive.google.com/file/d/12buT7lB_Te_Tqfn3D-6fj43BgyZuWHCc/view?usp=sharing)
+	* [Out-of-domain test audio files link](https://drive.google.com/file/d/1TyDxGJ9Qo9gKNrTx-yJPwEXYhWpaubaH/view?usp=sharing)
 
 ## Evaluate
 From pre-trained model (SLP vowel split)
