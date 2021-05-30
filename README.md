@@ -9,10 +9,10 @@ This contains the audio files for 6 speakers in total, where 4 speakers (each wi
 ## Environments
 - python version: 3.7.3
 - Model files (SLP vowel split)
-	- model link: https://drive.google.com/file/d/1FkL3DPcqXTk2Ht6AgF2fPu3Rc5rlk8es/view?usp=sharing
-	- LM link: https://drive.google.com/file/d/1maOUwH4HzdCEWL2mcAmv1ixsGad3Meej/view?usp=sharing
-	- In-domain test data link (test.zip) : https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing
-	- Out-of-domain truetest data link (truetest.zip) : https://drive.google.com/file/d/1lYBMKXW1elwElQVvWa1dGUMrB6cLduMR/view?usp=sharin
+	- model link: 
+	- [SRILM LM link](https://drive.google.com/file/d/1maOUwH4HzdCEWL2mcAmv1ixsGad3Meej/view?usp=sharing)
+	- [In-domain test data link (test.zip)](https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing)
+	- [Out-of-domain truetest data link (truetest.zip)](https://drive.google.com/file/d/1lYBMKXW1elwElQVvWa1dGUMrB6cLduMR/view?usp=sharin)
 - Result
 	- In-domain sample data WER : 22.59
 	- Out-domain sample data WER : 34.88
@@ -22,6 +22,12 @@ This [Kaldi](http://kaldi-asr.org/) recipe is based on subword - Vowel Split and
 
  
 ## Training
+
+Download the vowel splitter
+
+- [Sanskrit](https://drive.google.com/file/d/1iWLknjdlrtN4J6S9Hf1QBapOZYyujiYH/view?usp=sharing)
+- [Gujarati](https://drive.google.com/file/d/1GrLt4FHS7Idsmh3f5f2er_4thfbbIJYo/view?usp=sharing)
+- [Telugu](https://drive.google.com/file/d/1-seAKZyC_Uh1JVAkynPz3cFEOccwuP96/view?usp=sharing)
 
 Download the pre-trained model 
 	
