@@ -1,9 +1,5 @@
-Vaksancayah introduces free Sanskrit speech corpus and aims to make Sanskrit speech recognition more broadly accessible to everyone.
-
-We are using 56 hours transcribed Sanskrit audio for training data (34,309 utterances, 12 people) and 10 hours transcribed Sanskrit audio for testing data (5531 utterances, 5 people).
-
-The sample dataset can be downloaded from the link : http://bit.ly/39JJkrx .
-This contains the audio files for 6 speakers in total, where 4 speakers (each with 100 sentences) used for training, and 1 speaker for In-domain testing (500 sentences), and 1 speaker for Out-of-domain testing (494 sentences). The full dataset will be released upon acceptance.
+Vāksañcayaḥ - Sanskrit speech corpus has more than 78 hours of data and contains recordings of 45,953 sentences with a sampling rate of 22 KHz. The content is mainly readings of various texts spanning many Śāstras of Saṃskṛt literature and also includes contemporary stories, radio program, extempore discourse, etc.
+The summary datasheet associated with this corpus can be accessed here - [Link](https://drive.google.com/file/d/1Kmi8MTIEvRqBkAyQ17v7nN8susaczS3L/view).
 
 
 ## Environments
@@ -11,8 +7,8 @@ This contains the audio files for 6 speakers in total, where 4 speakers (each wi
 - Model files (SLP vowel split)
 	- model link: 
 	- [SRILM LM link](https://drive.google.com/file/d/1maOUwH4HzdCEWL2mcAmv1ixsGad3Meej/view?usp=sharing)
-	- [In-domain test data link (test.zip)](https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing)
-	- [Out-of-domain truetest data link (truetest.zip)](https://drive.google.com/file/d/1lYBMKXW1elwElQVvWa1dGUMrB6cLduMR/view?usp=sharin)
+	- [In-domain sample test data link (test.zip)](https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing)
+	- [Out-of-domain sample truetest data link (truetest.zip)](https://drive.google.com/file/d/1lYBMKXW1elwElQVvWa1dGUMrB6cLduMR/view?usp=sharin)
 - Result
 	- In-domain sample data WER : 22.59
 	- Out-domain sample data WER : 34.88
@@ -55,3 +51,7 @@ From pre-trained model (SLP vowel split)
 # | WER : 34.88
 
 ``` 
+
+## Publications
+Devaraja Adiga and Rishabh Kumar and Amrith Krishna and Preethi Jyothi and Ganesh Ramakrishnan and Pawan Goyal[Devaraja Adiga and Rishabh Kumar and Amrith Krishna and Preethi Jyothi and Ganesh Ramakrishnan and Pawan Goyal](https://arxiv.org/abs/2106.05852), In ACL 2021.
+
