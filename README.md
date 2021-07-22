@@ -9,7 +9,7 @@ The summary datasheet associated with this corpus can be accessed here - [Link](
 	- [SRILM LM link](https://drive.google.com/file/d/1maOUwH4HzdCEWL2mcAmv1ixsGad3Meej/view?usp=sharing)
 - Results for different model
 	- In-domain test data WER : 21.94 for the best performing model (SLP1 as the script and BPE splits as the LM unit).
-	- Out-of-domain test data WER for different speakers can be refered on the [paper](https://arxiv.org/abs/2106.05852).
+	- Out-of-domain test data WER for different speakers can be referred to in the [paper](https://arxiv.org/abs/2106.05852).
 
 ## Recipe
 This [Kaldi](http://kaldi-asr.org/) recipe is based on subword - Vowel Split and Byte Pair Encoding. For word based we used [Wall Street Journal recipe](https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj/s5)
