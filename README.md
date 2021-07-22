@@ -1,17 +1,15 @@
 Vāksañcayaḥ - Sanskrit speech corpus has more than 78 hours of data and contains recordings of 45,953 sentences with a sampling rate of 22 KHz. The content is mainly readings of various texts spanning many Śāstras of Saṃskṛt literature and also includes contemporary stories, radio program, extempore discourse, etc.
-The summary datasheet associated with this corpus can be accessed here - [Link](https://drive.google.com/file/d/1Kmi8MTIEvRqBkAyQ17v7nN8susaczS3L/view).
+The summary datasheet associated with this corpus can be accessed here - [Link](https://drive.google.com/file/d/1Kmi8MTIEvRqBkAyQ17v7nN8susaczS3L/view). Please download the corpus from [https://www.cse.iitb.ac.in/~asr/](https://www.cse.iitb.ac.in/~asr/).
 
 
 ## Environments
 - python version: 3.7.3
-- Model files (SLP vowel split)
-	- model link: 
+- Model files
+	- List of the speakers used in the train, validation, test and out-of-domain-test split are given in the README file of corpus. 
 	- [SRILM LM link](https://drive.google.com/file/d/1maOUwH4HzdCEWL2mcAmv1ixsGad3Meej/view?usp=sharing)
-	- [In-domain sample test data link (test.zip)](https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing)
-	- [Out-of-domain sample truetest data link (truetest.zip)](https://drive.google.com/file/d/1lYBMKXW1elwElQVvWa1dGUMrB6cLduMR/view?usp=sharin)
-- Result
-	- In-domain sample data WER : 22.59
-	- Out-domain sample data WER : 34.88
+- Results for different model
+	- In-domain test data WER : 21.94 for the best performing model (SLP1 as the script and BPE splits as the LM unit).
+	- Out-of-domain test data WER for different speakers can be refered on the [paper](https://arxiv.org/abs/2106.05852).
 
 ## Recipe
 This [Kaldi](http://kaldi-asr.org/) recipe is based on subword - Vowel Split and Byte Pair Encoding. For word based we used [Wall Street Journal recipe](https://github.com/kaldi-asr/kaldi/tree/master/egs/wsj/s5)
@@ -19,7 +17,7 @@ This [Kaldi](http://kaldi-asr.org/) recipe is based on subword - Vowel Split and
  
 ## Training
 
-Download the vowel splitter
+Download the vowel splitter (This requires the text to be in SLP1 format)
 
 - [Sanskrit](https://drive.google.com/file/d/1iWLknjdlrtN4J6S9Hf1QBapOZYyujiYH/view?usp=sharing)
 - [Gujarati](https://drive.google.com/file/d/1GrLt4FHS7Idsmh3f5f2er_4thfbbIJYo/view?usp=sharing)
@@ -36,11 +34,10 @@ Download the pre-trained model
 
 Download the processed dataset
 
+- Convert the audio files for testing from .mp3 files to .wav files before testing using the script given with the corpus.
+- We used our best performing model(SLP1 as the script and BPE splits as the LM unit) for testing Out-of-domain data.
 - [In-domain test data link (test.zip)](https://drive.google.com/file/d/11UvmFgHZGJ2XoFhMZzOhHgpVRO8uT4RT/view?usp=sharing)
 - [Out-of-domain test data link (truetest.zip)](https://drive.google.com/file/d/1lYBMKXW1elwElQVvWa1dGUMrB6cLduMR/view?usp=sharing)
-- Audio files for testing (convert these .mp3 files to .wav files before testing)
-	* [In-domain test audio files link](https://drive.google.com/file/d/12buT7lB_Te_Tqfn3D-6fj43BgyZuWHCc/view?usp=sharing)
-	* [Out-of-domain test audio files link](https://drive.google.com/file/d/1TyDxGJ9Qo9gKNrTx-yJPwEXYhWpaubaH/view?usp=sharing)
 
 ## Evaluate
 From pre-trained model (SLP vowel split)
