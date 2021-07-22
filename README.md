@@ -50,5 +50,5 @@ From pre-trained model (SLP vowel split)
 ``` 
 
 ## Publications
-Devaraja Adiga and Rishabh Kumar and Amrith Krishna and Preethi Jyothi and Ganesh Ramakrishnan and Pawan Goyal[Devaraja Adiga and Rishabh Kumar and Amrith Krishna and Preethi Jyothi and Ganesh Ramakrishnan and Pawan Goyal](https://arxiv.org/abs/2106.05852), In ACL 2021.
+Devaraja Adiga and Rishabh Kumar and Amrith Krishna and Preethi Jyothi and Ganesh Ramakrishnan and Pawan Goyal, [Automatic Speech Recognition in Sanskrit: A New Speech Corpus and Modelling Insights](https://arxiv.org/abs/2106.05852), In ACL 2021.
 
